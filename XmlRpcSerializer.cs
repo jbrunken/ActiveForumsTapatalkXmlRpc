@@ -384,17 +384,17 @@ namespace ActiveForumsTapatalk.XmlRpc
           else if(pis.Length == 1 && pis[0].ParameterType == typeof(object[]))
           {
               paramsNode = xdoc.CreateNode(XmlNodeType.Element, "params", "");
-              var paramNode = xdoc.CreateNode(XmlNodeType.Element, "param", "");
-              paramsNode.AppendChild(paramNode);
+              //var paramNode = xdoc.CreateNode(XmlNodeType.Element, "param", "");
+              //paramsNode.AppendChild(paramNode);
 
-              var valueNode = xdoc.CreateNode(XmlNodeType.Element, "value", "");
-              paramNode.AppendChild(valueNode);
+             // var valueNode = xdoc.CreateNode(XmlNodeType.Element, "value", "");
+              //paramNode.AppendChild(valueNode);
 
-              var arrayNode = xdoc.CreateNode(XmlNodeType.Element, "array", "");
-              valueNode.AppendChild(arrayNode);
+             // var arrayNode = xdoc.CreateNode(XmlNodeType.Element, "string", "");
+              //valueNode.AppendChild(arrayNode);
 
-              var dataNode = xdoc.CreateNode(XmlNodeType.Element, "data", "");
-              arrayNode.AppendChild(dataNode);
+             // var dataNode = xdoc.CreateNode(XmlNodeType.Element, "data", "");
+              //arrayNode.AppendChild(dataNode);
           }
           else
           {
