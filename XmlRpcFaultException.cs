@@ -73,7 +73,6 @@ namespace ActiveForumsTapatalk.XmlRpc
 #if (!COMPACT_FRAMEWORK)
     // public methods
     //
-    [SecurityCritical]
     public override void GetObjectData(
       SerializationInfo info, 
       StreamingContext context)
