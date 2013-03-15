@@ -33,6 +33,7 @@ using System.Security;
 [assembly: AssemblyCopyright("Charles Cook (c) 2001-2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
+[assembly: SecurityRules(SecurityRuleSet.Level1)]
 
 #if (!COMPACT_FRAMEWORK)
 [assembly: AllowPartiallyTrustedCallers]
